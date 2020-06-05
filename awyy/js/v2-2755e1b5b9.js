@@ -5940,3 +5940,11 @@ $("input.input-page-jump").keyup(function() {
     t = $(this).val().length;
     t >= e && $(this).attr("size", t)
 });
+    
+function xuanjitext(){
+	if(document.getElementById("xuanji").style.display =="none"){ //xuanji是另一个div
+		document.getElementById("xuanji").style.display= "block";
+	}else{
+		document.getElementById("xuanji").style.display= "none";
+	}
+}
