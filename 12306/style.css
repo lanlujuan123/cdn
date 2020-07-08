@@ -2,7 +2,7 @@
 *{ padding: 0px; margin: 0px;}
 h1 {font-size: 14px;color:#000;display:inline}
 h2 {font-size: 15px;color:#808080;font-weight:normal;display:inline}
-h3 {font-size: 13px;color:#696969;font-weight:normal;display:inline}
+h3 {font-size: 16px;color:#696969;font-weight:normal;display:inline}
 html{font-size:62.5%;}
 body{background:#F6F6F9;margin:0px;padding:0px;color: #555;font-size:14px;line-height:140%;word-break: break-all; word-wrap:break-word;
 font-family:"Lucida Grande",Verdana,Tahoma,Lucida,Arial,Helvetica,"微软雅黑","宋体",sans-serif;}
@@ -427,7 +427,7 @@ color:#333;}
 #play_header a{display:block;font-size:inherit;font-family:inherit;color:#fff;text-decoration:none;}
 #header1{float:left;display:inline;width:33%; }
 #header1 a{border-right:1px solid #222;width:46%;float:left;text-align:center;}
-#header2{float:left;width:22%;text-align:center;}
+#header2{float:left;width:12%;text-align:center;}
 #header3{float:left;display:inline;width:18%;text-align:center;border-left:1px solid #fff;}
 
 
