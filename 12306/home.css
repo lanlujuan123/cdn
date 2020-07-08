@@ -421,7 +421,7 @@
 .mac_pop {  z-index:99998; display: none; min-height: 20px; max-height: 750px; position: fixed;  top: 0;  left: 0;  bottom: 0;  right: 0;  margin: auto;  padding: 25px;  z-index: 130;  border-radius: 8px;  background-color: #fff;  box-shadow: 0 3px 18px rgba(0, 0, 0, .5);}
 .mac_pop .pop_top{  height:40px;  width:96%;  border-bottom: 1px #E5E5E5 solid;}
 .mac_pop .pop_top h2{  float: left; display:block;margin: 0;font-size: 18px;font-weight: normal;font-family:"microsoft yahei";}
-.mac_pop span.pop_close{  float: right;width: 23px;height: 23px;font-size: 0;text-indent: 9999; cursor: pointer;  font-weight: bold; display:block;background: url("../images/home/background.png") -10px 0 no-repeat;}
+.mac_pop span.pop_close{  float: right;width: 23px;height: 23px;text-indent: 9999; cursor: pointer;  font-weight: bold; display:block;background: url("../images/home/background.png") -10px 0 no-repeat;}
 .mac_pop .pop-foot{  height:50px;  line-height:50px;  width:96%;  border-top: 1px #E5E5E5 solid;  text-align: right;  }
 .mac_pop .pop-cancel, .pop-ok {  padding:8px 15px;  margin:15px 5px;  border: none;  border-radius: 5px;  background-color: #337AB7;  color: #fff;  cursor:pointer;  }
 .mac_pop .pop-cancel {  background-color: #FFF;  border:1px #CECECE solid;  color: #000;  }
