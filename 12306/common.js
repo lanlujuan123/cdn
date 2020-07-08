@@ -463,21 +463,7 @@ $(function(){
     })
 });
 function $$(id){return document.getElementById(id);}
-// function Wnew(len){
-//     alert(len);
-//     for(var ui=1; ui<=len; ui++){
-//         var playbox=$$("play_"+ui)
-//         var ulbox=$$("vlink_"+ui),litag=ulbox.getElementsByTagName('li'),isno2,rhtml;
-//         rhtml="";
-//         if(litag.length>25){playbox.className="playlist mb b max_height";}else{playbox.className="playlist mb b";}
-//         for(var uii=litag.length-1;uii>=0;uii--){
-//             if(uii==litag.length-1){isno2='<li class="new">';}else{isno2='<li>';}
-//             rhtml+=isno2+litag[uii].innerHTML+"</li>";
-//         }
-//         rhtml="<ul>"+rhtml+"</ul>";
-//         ulbox.innerHTML=rhtml;
-//     }
-// }
+
 function Order(o,id,vi){
     var tag,leng,i,phtml,box,ubox,uhtml,isno,s1,s2
     box=$$(id);
@@ -515,3 +501,29 @@ $(function(){
   $('.gotop').click(function(){
   $('html,body').animate({scrollTop: '0px'}, 800);}); 
 });
+function jsCopy(idstr){  
+                    var e=document.getElementById(idstr);//对象是copy-num1  
+                    e.select(); //选择对象  
+                    document.execCommand("Copy"); //执行浏览器复制命令  
+                    alert("复制成功");  
+                }  
+                  /* <![CDATA[ */ 
+                  ! 
+                  function() { 
+                    try { 
+                      var t = "currentScript" in document ? document.currentScript: function() { 
+                        for (var t = document.getElementsByTagName("script"), e = t.length; e--;) if (t[e].getAttribute("data-cfhash")) return t[e] 
+                      } (); 
+                      if (t && t.previousSibling) { 
+                        var e, r, n, i, c = t.previousSibling, 
+                        a = c.getAttribute("data-cfemail"); 
+                        if (a) { 
+                          for (e = "", r = parseInt(a.substr(0, 2), 16), n = 2; a.length - n; n += 2) i = parseInt(a.substr(n, 2), 16) ^ r, 
+                          e += String.fromCharCode(i); 
+                          e = document.createTextNode(e), 
+                          c.parentNode.replaceChild(e, c) 
+                        } 
+                        t.parentNode.removeChild(t); 
+                      } 
+                    } catch(u) {} 
+                  } () 
