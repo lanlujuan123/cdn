@@ -295,7 +295,7 @@ box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);}
 .ct-c .ee{float:left;line-height:30px;}
 .ct-c dd{width:50%;float:left;}
 .tab-title{height:28px;line-height:28px;border-bottom:2px solid #e1e1e1;}
-.tab-title li {float:left;margin-right:2px;padding:0 18px;	background:#DCDCDC;font-weight:800;-webkit-border-radius: 6px;	cursor:pointer}
+.tab-title li {float:left;margin-right:2px;padding:0 12px;	background:#DCDCDC;font-weight:800;-webkit-border-radius: 6px;	cursor:pointer}
 .tab-title li.on{border-bottom:2px solid #f06000;background:#4abf1c;color:#fff}
 .tab-title li.err{float:right;margin-right:0;cursor: default;}
 .tab-title li.err a{color:#333;}
