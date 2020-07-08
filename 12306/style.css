@@ -431,4 +431,6 @@ color:#333;}
 #header3{float:left;display:inline;width:18%;text-align:center;border-left:1px solid #fff;}
 .mac_comment{line-height:1px;}
 .downinput{width:69%;padding: 2px 2px;font-size: 16px;border: 1px solid #ccc;}
-
+.down_list ul li span {float:right; display:inline; overflow:hidden;}
+.down_list ul li span label {float:left; display:inline; margin-right:10px; padding:6px 9px; color:#fff; line-height:1; cursor:pointer;}
+.qqdl {background-color:#BC8F8F;}
