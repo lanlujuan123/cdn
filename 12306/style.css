@@ -44,7 +44,7 @@ textarea{resize:vertical;overflow-y:auto}
 #mh-ul li a:hover{background:#f2f2f2;}
 @media (min-width: 768px){
 	.ding,.top .sj-nav,.top .sj-search,.top .sj-navhome,#tab2{display:none;}
-	.main,.top,.nav-down-2{width:98%;margin:0 auto;}
+	.main,.top,.nav-down-2{width:1186px;margin:0 auto;}
     .index-tj-l{float:left;width:940px;}
     .index-tj-r{float:right;width:240px;}
     .sy dt,.sy dd{width:60px;padding:5px 0;text-align: center;}
